@@ -1,0 +1,28 @@
+@keyframes colorAnimation {
+    from {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.content{
+    display: grid;
+
+    height: calc(100dvh - 50px);
+}
+.waitingContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 48px;
+
+    animation: infinite 3s colorAnimation;
+}

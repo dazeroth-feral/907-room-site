@@ -1,0 +1,74 @@
+.content{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    height: calc(100dvh - 50px);
+}
+    .pageLabel{
+        text-align: center;
+
+        font-size: 20px;
+    }
+    .middleContentBlock{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        margin-bottom: -32px;
+    }
+        .listFromDataPack{
+            padding-right: 50dvh;
+        }
+        .toNextPageButton{
+            background-color: #CB5555;
+            color: white;
+            border-radius: 6px;
+    
+            align-self: center;
+            margin-right: 32px;
+
+            width: 30px;
+            height: 30px;    
+        }
+    .addMeButton{
+
+    }
+    .modalWindow {
+        position: absolute;
+
+        top: 50%;              left: 50%;
+        transform: translate(-50%, -50%);
+        
+        width: 450px;
+        height: 250px;
+
+        padding: 8px;
+        margin: 0 auto;
+
+        background-color: #222836;
+        border: #18A4E3 solid 2px;
+        border-radius: 10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .overlayWindow {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+        .buttonBlock{
+            display: flex;
+            flex-direction: row;
+            gap: 48px;
+
+            padding-top: 32px;
+        }

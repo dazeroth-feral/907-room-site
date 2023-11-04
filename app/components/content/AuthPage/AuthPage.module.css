@@ -1,0 +1,71 @@
+.content{
+    display: flex;
+    flex-direction: column;
+
+    justify-self: center;
+    align-self: center;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 16px 0 16px 0;
+
+    border-radius: 10px;
+    border: #18A4E3 solid 2px;
+    background-color: #222836;
+
+    min-width: 150px;
+    min-height: 200px;
+
+    width: 15%;
+    height: 30%;
+}
+    .inputBlock{
+        display: flex;
+        flex-direction: column;
+
+        justify-self: center;
+        
+        gap: 16px;
+    }
+        .loginInput, .passwordInput{
+            width: 154px;
+            height: 24px;
+
+            background-color: #222836;
+            color: white;
+
+            border: #18A4E3 solid 2px;
+            border-radius: 4px;
+
+            padding: 0 8px 0 8px;
+        }
+        .loginInput::placeholder, .passwordInput::placeholder{
+            color: rgba(255, 255, 255, 0.8);
+        }
+        .loginInput{
+
+        }
+        .passwordInput{
+
+        }
+    .submitButton{
+        width: 100px;
+        height: 30px;
+
+        border-radius: 6px;
+        background-color: #CB5555;
+        border: 0;
+
+        color: white;
+    }
+    .submitButton:hover{
+        border-right: black solid 2px;
+        border-bottom: black solid 2px;
+    }
+    .submitButton:active{
+        border-left: black solid 2px;
+        border-top: black solid 2px;
+        border-right: 0;
+        border-bottom: 0;
+    }

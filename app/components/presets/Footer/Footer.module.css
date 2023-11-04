@@ -1,0 +1,16 @@
+.content{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 32px 0 32px;
+
+    font-size: 24px;
+
+    background-color: #1F232E;
+    border-bottom: #18A4E3 solid 2px;
+
+    height: 48px;
+}
