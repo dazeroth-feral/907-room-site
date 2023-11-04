@@ -17,7 +17,7 @@ const TrashPage = ({ dataPack, setDataPack }) => {
     const closeModal = () => { setModalIsOpen(false) };
 
     const addHero = async (name) => {
-        const url = new URL(`http://localhost:3000/api/trashRemoverList?${name}|MONGOPUSH`);
+        const url = new URL(`http://localhost:3000/api?${name}|MONGOPUSH`);
 
         await fetch(url.toString(), {
             method: "GET",

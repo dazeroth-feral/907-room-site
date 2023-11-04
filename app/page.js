@@ -15,7 +15,7 @@ const Home = () => {
     useEffect(() => {
         const getData = async () => {
             const response_GET = await fetch(
-                "http://localhost:3000/api/trashRemoverList",
+                "http://localhost:3000/api",
                 {
                     method: "GET",
                     headers: {
